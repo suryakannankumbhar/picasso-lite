@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100;300;400;500&display=swap');
+
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    overflow: hidden;
+    background: #353839;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-size: large;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+span {
+    font-size: xxx-large;
+    color: hotpink;
+}
+canvas {
+    box-shadow: -3px 2px 9px 6px #111515;
+}
+
+.tools {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.colors {
+    display: flex;
+    justify-content: space-around;
+}
+.tools .color-field {
+    height: 40px;
+    width: 40px;
+    min-height: 40px;
+    min-width: 40px;
+    cursor: pointer;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 2px solid white;
+    align-self: center;
+    margin: 10px;
+}
+
+.tools .button {
+    align-self: center;
+    width: 100px;
+    height: 40px;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    background: #222;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.color-picker {
+    align-self: center;
+    margin: 0 10px;
+    height: 50px;
+}
+
+.pen-range {
+    align-self: center;
+    margin: 0 10px;
+}
+@media (max-width: 500px) {
+    .tools {
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+    .colors {
+        display: flex;
+        justify-content: space-around;
+        padding: 5px;
+    }
+}
