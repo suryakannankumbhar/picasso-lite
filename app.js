@@ -6,7 +6,7 @@ let canvasBackground = 'white';
 context.fillStyle = canvasBackground;
 context.fillRect(0, 0, canvas.width, canvas.height);
 let draw_color = 'black';
-let stroke_width = '2';
+let stroke_width = '1';
 let is_drawing = false;
 let restoreArray = [];
 let index = -1;
